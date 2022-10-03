@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.background {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 960px;
+    width: 1920px;
+    background-color: #0D5E3C;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.slider__front {
+    position: relative;
+    left: 206px;
+    display: flex;
+    justify-content: left;
+    z-index: 1;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.pattern {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: right;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    mix-blend-mode: multiply;
+}
+
+.button__background {
+    position: relative;
+    right: 465px;
+    top: 604px;
+    margin: 0;
+}
+
+.button__text {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    width: 210px;
+    height: 60px;
+    border: 2px dashed #FFFFFF;
+    background: none;
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    transition-property: border, background-color, color;
+}
+
+.button__text:hover {
+    border: none;
+    background-color: #FFFFFF;
+    color: #0ED984;
+}
+
+.logo-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    left: 260px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.study {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.color__basic {    
+    color: #0ED984;
+}
+
+.front__basic {
+    color: #138F5B;
+}
+
+.background__basic {
+    color: #04643C;
+}
+
+.slider__online {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #0ED984;
+}
+
+.slider__titles {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0ED984;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    position: absolute;
+    z-index: 1;
+    top: 295px;
+    left: 260px;
+    cursor: pointer;
+}
+
+.slider__titles:hover {
+    text-decoration: none;
+}
+
+.make-step-white {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 106px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    top: 285px;
+    left: 260px;
+}
+
+.cources {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    top: 609px;
+    left: 260px;
+}
+
+.dot__active {
+    background: url("../images/worldwide-green.svg");
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    z-index: 2;
+    top: 799px;
+    left: 260px;
+    cursor: pointer;
+}
+
+.dot__item {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    background: none;
+    position: absolute;
+    z-index: 2;
+    top: 802px;
+    left: 260px;
+    cursor: pointer;
+    transition-property: border;
+}
+
+.dot__item:hover {
+    border: 1px solid #0ED984;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 75px;
+    z-index: 1;
+    top: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.arrow-left:hover {
+    opacity: 1;
+}
+
+.arrow-right {
+    position: absolute;
+    right: 75px;
+    z-index: 1;
+    top: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.arrow-right:hover {
+    opacity: 1;
+}
+
+.profi {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 41px;
+    color: #1D1A1A;
+}
+
+.cource-type {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: #615D5D;
+}
+
+.get-profession {
+    display: inline-block;
+    position: relative;
+    top: 188px;
+    left: 160px;
+    padding-bottom: 385px;
+}
+
+.background1 {
+    background: #F3F3F3;
+    height: 528px;
+    width: 1920px;
+}
+
+.make-step-black {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 73px;
+    color: #1D1A1A;
+    position: relative;
+    top: 150px;
+    left: 160px;
+}
+
+.about-aims {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: #615D5D;
+    position: relative;
+    top: 176px;
+    left: 160px;
+}
+
+.request {
+    display: inline-block;
+    position: relative;
+    left: 940px;
+}
+
+.input {
+    position: relative;
+    top: 10px;
+    background-color: #FFFFFF;
+    width: 275px;
+    height: 65px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1D1A1A;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.input::placeholder {
+    color: #C5C5C5;
+    padding-left: 20px;
+}
+
+.input:hover::placeholder {
+    color: #999999;
+}
+
+.request-button {
+    position: relative;
+    top: 10px;
+    width: 220px;
+    height: 70px;
+    background: #138F5B;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+}
+
+.request-button:hover {
+    background: #04643C;
+}
+
+.personal-data {
+    position: relative;
+    top: 47px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #A6A6A6;
+}
+
+.data {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.data:hover {
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: left;
+    height: 83px;
+    align-items: center;
+    background: #1D1A1A;
+}
+
+.logo-bottom {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    margin-left: 160px;
+}
+
